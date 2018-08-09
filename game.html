@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Type Game</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body style="background: linear-gradient(to right,#8E44AD,#F1C40F);">
+	<div class="container-fluid" style="margin-top: 5%;">
+		<center><h1 style="color: white;font-size: 400%;">TypeGame</h1></center>
+		<center><h1 style="color: white;" id="word-Target">Word</h1></center>
+		<center>
+		<div class="col-md-4">
+			<form>
+				<input type="text" name="word" style="width: 100%;border-radius: 10px;border:none;padding:5%;" placeholder="Type the word to score..." autofocus id="inputText">
+			</form>
+			<div style="float: left;color: white;font-weight: bold;margin-top: 5%;font-size:150%;">
+				<span>Time :</span>
+				<span id="seconds"> 5</span>
+				<span> Seconds</span>
+			</div>
+			<div style="float: right;color: white;font-weight: bold;margin-top: 5%;font-size:150%;">
+				<span>Score :</span>
+				<span id="score"> 0</span>	
+			</div>
+		</div>
+		</center>
+		<center>
+			<div style="margin-top: 8%;color: white;">
+				<h2 id="message"></h2>
+			</div>
+		</center>
+		<center>
+			<div class="col-md-6" style="margin-top: 3%;color: white;background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));padding: 1%;border-radius: 10px;">
+			<h2>Instructions</h2>
+			<span>Type the shown word in the given place under 5 Seconds to increase your score.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+			</div>			
+		</center>
+		</div>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
